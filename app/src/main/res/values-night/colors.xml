@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#82B1FF</color>
+    <color name="primary_variant">#2D5AF0</color>
+    <color name="secondary">#B0BEC5</color>
+    <color name="background">#121212</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="on_surface">#E1E2E5</color>
+    <color name="on_surface_variant">#C1C7CE</color>
+
+    <color name="category_akademik">#1A237E</color>
+    <color name="category_akademik_text">#BBDEFB</color>
+    <color name="category_event">#4A148C</color>
+    <color name="category_event_text">#E1BEE7</color>
+    <color name="category_it">#1B5E20</color>
+    <color name="category_it_text">#C8E6C9</color>
+    <color name="category_organisasi">#E65100</color>
+    <color name="category_organisasi_text">#FFE0B2</color>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.nabilganteng.campusinfo.HomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_homeFragment_to_announcementDetailFragment"
+            app:destination="@id/announcementDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="com.nabilganteng.campusinfo.ScheduleFragment"
+        android:label="Schedule" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.nabilganteng.campusinfo.ProfileFragment"
+        android:label="Profile" />
+
+    <fragment
+        android:id="@+id/announcementDetailFragment"
+        android:name="com.nabilganteng.campusinfo.AnnouncementDetailFragment"
+        android:label="Detail">
+        <argument
+            android:name="announcementId"
+            app:argType="integer" />
+    </fragment>
+</navigation>
